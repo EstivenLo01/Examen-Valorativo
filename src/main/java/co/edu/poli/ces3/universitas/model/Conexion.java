@@ -10,7 +10,7 @@ public abstract class Conexion {
     private String driver = "com.mysql.jdbc.Driver";
 
     // Nombre de la base de datos
-    private String database = "universitas";
+    private String database = "adminusuario";
 
     // Host
     private String hostname = "localhost";
@@ -22,10 +22,10 @@ public abstract class Conexion {
     private String url = "jdbc:mysql://" + hostname + ":" + port + "/" + database + "?useSSL=false";
 
     // Nombre de usuario
-    public String username = "estiven";
+    public String username = "root";
 
     // Clave de usuario
-    public String password = "1234";
+    public String password = "";
 
     public Conexion(){
 

@@ -1,18 +1,18 @@
 package co.edu.poli.ces3.universitas.model;
 
-import co.edu.poli.ces3.universitas.dto.DtoStudent;
+import co.edu.poli.ces3.universitas.dto.DtoUsuario;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 
 public interface CRUD {
-    Student create(DtoStudent student) throws SQLException;
+    Usuario create(DtoUsuario usuario) throws SQLException;
 
-    public ArrayList<Student> all();
+    public ArrayList<Usuario> all();
 
-    public Student findById(int id) throws SQLException;
+    public Usuario findById(int id) throws SQLException;
 
-    Student update(Student student) throws SQLException;
+    Usuario update(Usuario usuario) throws SQLException;
 
-    void delete(int studentId) throws SQLException;
+    void delete(int usuarioId) throws SQLException;
 }
