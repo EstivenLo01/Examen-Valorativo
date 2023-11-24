@@ -1,0 +1,18 @@
+CREATE TABLE USUARIO(
+    ID INT NOT NULL AUTO_INCREMENT,
+    NOMBRE VARCHAR(45) NOT NULL,
+    CORREO VARCHAR(45) NOT NULL,
+    CONTRASEÑA VARCHAR(45) NOT NULL,
+    PRIMARY KEY (ID)
+);
+
+
+INSERT INTO `usuario` (`ID`, `NOMBRE`, `CORREO`, `CONTRASEÑA`) VALUES 
+(NULL, 'Ana García', 'ana_garcia@example.com', '1234'), 
+(NULL, 'Carlos Rodríguez', 'carlos_rodriguez@example.com', '1234'), 
+(NULL, 'María Martínez', 'maria_martinez@example.com', '1234'), 
+(NULL, 'Javier López', 'javier_lopez@example.com', '1234'), 
+(NULL, 'Laura Pérez', 'laura_perez@example.com', '1234'), 
+(NULL, 'Miguel Sánchez', 'miguel_sanchez@example.com', '1234'), 
+(NULL, 'Isabel Fernández', 'isabel_fernandez@example.com', '1234'), 
+(NULL, 'Diego Ramírez', 'diego_ramirez@example.com', '1234');
